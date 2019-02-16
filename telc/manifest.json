@@ -1,0 +1,13 @@
+{
+  "name": "TEL-C extension",
+  "description": "Overrides the new tab page",
+  "version": "0.1",
+  "icons" : {"128":"logo.jpg"},
+  "incognito": "split",
+  "manifest_version": 2,
+  "browser_action" :{
+    "default_icon":"logo.jpg",
+    "default_popup":"popup.html"
+  },
+"permissons":["activeTab"]
+}

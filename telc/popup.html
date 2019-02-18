@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 
@@ -37,7 +38,15 @@
     img {
       width: 30px;
     }
-
+    input[type=number]{
+      width: 30px;
+    }
+    input[type=submit]{
+      margin-left: 20px;
+    }
+    span{
+      margin: 30px;
+    }
     .modal-header {
       align-items: center;
       border-bottom: 0.5px solid #dadada;
@@ -95,13 +104,37 @@
 <body>
   <div class="modal-header">
     <h1 class="logo">
-      <img class="logo-icon" src="logo.jpg">TEL-C
+      <img class="logo-icon" src="https://pbs.twimg.com/profile_images/607578405949734912/JCxrVHco_400x400.png">ASPRAK EZ
       <span class="version">(1.0.0)</span>
     </h1>
   </div>
   <div class="modal-content">
-    <p>TEL-C Learning Can Be Fun</p>
+    <p>Impulse ASPRAK Can Be Fun</p>
   </div>
+
+      <span>Min - Max</span>
+  <div class="modal-content">
+    <input type="number" id="min_tes_awal"> - <input type="number" id="max_tes_awal"><input type="submit" name="" value="Tes Awal">
+  </div>
+  
+
+      <span>Min - Max</span>
+  <div class="modal-content">
+    <input type="number" id="min_jurnal"> - <input type="number" id="max_jurnal"> <input type="submit" name="" value="Jurnal">
+  </div>
+    
+  
+  
+      <span>Min - Max</span>
+      <div class="modal-content">
+        <input type="number" id="min_tes_akhir"> - <input type="number" id="max_tes_akhir"> <input type="submit" name="" value="Tes Akhir">
+      </div>    
+
+      <span>Min - Max</span>
+      <div class="modal-content">
+        <input type="number" id="min_skill" value="0"> - <input type="number" id="max_skill" value="0"> <input type="submit" name="" value="Skill">
+      </div>    
+  
   <div class="modal-icons">
     <div class="flex-container">
       <div class="flex">

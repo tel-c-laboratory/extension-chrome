@@ -19,7 +19,13 @@
                     padding: 0;
                     width: 384px;
                 }
-
+                button{
+                    background: #2f5876;
+                    color : white;
+                    cursor: pointer;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
                 h1 {
                     font-family: 'Menlo', monospace;
                     font-size: 22px;
@@ -39,8 +45,8 @@
                     width: 30px;
                 }
                 input[type=number]{
-                                     width: 30px;
-                                 }
+                    width: 50px;
+                }
                 button{
                     margin-left: 20px;
                 }
@@ -113,24 +119,24 @@
 
 <span>Min - Max</span>
 <div class="modal-content">
-    <input type="number" id="min_tes_awal" required> - <input type="number" id="max_tes_awal" required><button name="" id="button_test_awal">Tes Awal</button>
+    <input type="number" min="0" max="100" step="1" id="min_tes_awal" required> - <input type="number" min="0" max="100" step="1" id="max_tes_awal" required><button name="" id="button_test_awal">Tes Awal</button>
 </div>
 
 
 <span>Min - Max</span>
 <div class="modal-content">
-    <input type="number" id="min_jurnal"> - <input type="number" id="max_jurnal"> <button name="" id="button_jurnal">Jurnal</button>
+    <input type="number" min="0" max="100" step="1" id="min_jurnal"> - <input type="number" min="0" max="100" step="1" id="max_jurnal"> <button name="" id="button_jurnal">Jurnal</button>
 </div>
 
 
 <span>Min - Max</span>
 <div class="modal-content">
-    <input type="number" id="min_tes_akhir"> - <input type="number" id="max_tes_akhir"> <button name="" id="button_test_akhir" >Tes Akhir</button>
+    <input type="number" min="0" max="100" step="1" id="min_tes_akhir"> - <input type="number"  min="0" max="100" step="1" id="max_tes_akhir"> <button name="" id="button_test_akhir" >Tes Akhir</button>
 </div>
 
 <span>Min - Max</span>
 <div class="modal-content">
-    <input type="number" id="min_skill" value="0"> - <input type="number" id="max_skill" value="0"> <button name="" id="button_skill">Skill</button>
+    <input type="number" min="0" max="100" step="1" id="min_skill" value="0"> - <input type="number" min="0" max="100" step="1" id="max_skill" value="0"> <button name="" id="button_skill">Skill</button>
 </div>
 
 
